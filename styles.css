@@ -1,0 +1,15 @@
+#container {
+    display: grid;
+    grid-gap: 1px;
+}
+
+.grid-item {
+    background-color: grey;
+    border: 1px solid black;
+    height: 0;
+    padding-bottom: calc(1000% / 16);
+}
+/* hover effect*/
+.grid-item:hover {
+    background-color: bisque;
+}
